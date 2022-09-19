@@ -1,0 +1,27 @@
+NAME
+	searchb - Search for books
+SYNOPSIS
+	searchb <S>
+DESCRIPTION
+	searchb takes a search string S and prints a list of books whose titles contain the string
+
+NAME
+	searcha - Search for authors
+SYNOPSIS
+	searcha <S>
+DESCRIPTION
+	searcha takes a search string S and prints a list of authors whose names contain the string
+
+NAME
+	range - Search range of years
+SYNOPSIS
+	range <A> <B>
+DESCRIPTION
+	range prints a list of books published between years A and B, inclusive
+
+NAME
+	use - Request usage statement
+SYNOPSIS
+	use <flag>
+DESCRIPTION
+	Gives user description of <flag> command-line argument
