@@ -1,0 +1,230 @@
+1,China,CHN
+2,Denmark,DEN
+3,Netherlands,NED
+4,United States,USA
+5,Finland,FIN
+6,Norway,NOR
+7,Romania,ROU
+8,Estonia,EST
+9,France,FRA
+10,Morocco,MAR
+11,Spain,ESP
+12,Egypt,EGY
+13,Iran,IRI
+14,Bulgaria,BUL
+15,Italy,ITA
+16,Chad,CHA
+17,Azerbaijan,AZE
+18,Sudan,SUD
+19,Russia,RUS
+20,Argentina,ARG
+21,Cuba,CUB
+22,Belarus,BLR
+23,Greece,GRE
+24,Cameroon,CMR
+25,Turkey,TUR
+26,Chile,CHI
+27,Mexico,MEX
+28,Soviet Union,URS
+29,Nicaragua,NCA
+30,Hungary,HUN
+31,Nigeria,NGR
+32,Algeria,ALG
+33,Kuwait,KUW
+34,Bahrain,BRN
+35,Pakistan,PAK
+36,Iraq,IRQ
+37,United Arab Republic,UAR
+38,Lebanon,LIB
+39,Qatar,QAT
+40,Malaysia,MAS
+41,Germany,GER
+42,Canada,CAN
+43,Ireland,IRL
+44,Australia,AUS
+45,South Africa,RSA
+46,Eritrea,ERI
+47,Tanzania,TAN
+48,Jordan,JOR
+49,Tunisia,TUN
+50,Libya,LBA
+51,Belgium,BEL
+52,Djibouti,DJI
+53,Palestine,PLE
+54,Comoros,COM
+55,Kazakhstan,KAZ
+56,Brunei,BRU
+57,India,IND
+58,Saudi Arabia,KSA
+59,Syria,SYR
+60,Maldives,MDV
+61,Ethiopia,ETH
+62,United Arab Emirates,UAE
+63,North Yemen,YAR
+64,Indonesia,INA
+65,Philippines,PHI
+66,Singapore,SGP
+67,Uzbekistan,UZB
+68,Kyrgyzstan,KGZ
+69,Tajikistan,TJK
+70,Unified Team,EUN
+71,Japan,JPN
+72,Congo (Brazzaville),CGO
+73,Switzerland,SUI
+74,Brazil,BRA
+75,West Germany,FRG
+76,East Germany,GDR
+77,Monaco,MON
+78,Israel,ISR
+79,Uruguay,URU
+80,Sweden,SWE
+81,United States Virgin Islands,ISV
+82,Sri Lanka,SRI
+83,Armenia,ARM
+84,Cote d'Ivoire,CIV
+85,Kenya,KEN
+86,Benin,BEN
+87,Ukraine,UKR
+88,Great Britain,GBR
+89,Ghana,GHA
+90,Somalia,SOM
+91,Latvia,LAT
+92,Niger,NIG
+93,Mali,MLI
+94,Afghanistan,AFG
+95,Poland,POL
+96,Costa Rica,CRC
+97,Panama,PAN
+98,Georgia,GEO
+99,Slovenia,SLO
+100,Croatia,CRO
+101,Guyana,GUY
+102,New Zealand,NZL
+103,Portugal,POR
+104,Paraguay,PAR
+105,Angola,ANG
+106,Venezuela,VEN
+107,Colombia,COL
+108,Bangladesh,BAN
+109,Peru,PER
+110,El Salvador,ESA
+111,Puerto Rico,PUR
+112,Uganda,UGA
+113,Honduras,HON
+114,Ecuador,ECU
+115,Turkmenistan,TKM
+116,Mauritius,MRI
+117,Seychelles,SEY
+118,Czechoslovakia,TCH
+119,Luxembourg,LUX
+120,Mauritania,MTN
+121,Czech Republic,CZE
+122,Saint Kitts and Nevis,SKN
+123,Trinidad and Tobago,TTO
+124,Dominican Republic,DOM
+125,Saint Vincent and the Grenadines,VIN
+126,Jamaica,JAM
+127,Liberia,LBR
+128,Suriname,SUR
+129,Nepal,NEP
+130,Mongolia,MGL
+131,Austria,AUT
+132,Palau,PLW
+133,Lithuania,LTU
+134,Togo,TOG
+135,Namibia,NAM
+136,Netherlands Antilles,AHO
+137,Iceland,ISL
+138,American Samoa,ASA
+139,Samoa,SAM
+140,Rwanda,RWA
+141,Dominica,DMA
+142,Haiti,HAI
+143,Malta,MLT
+144,Cyprus,CYP
+145,Guinea,GUI
+146,Belize,BIZ
+147,South Yemen,YMD
+148,South Korea,KOR
+149,Thailand,THA
+150,Bermuda,BER
+151,Australasia,ANZ
+152,Serbia and Montenegro,SCG
+153,Sierra Leone,SLE
+154,Papua New Guinea,PNG
+155,Yemen,YEM
+156,Individual Olympic Athletes,IOA
+157,Oman,OMA
+158,Fiji,FIJ
+159,Vanuatu,VAN
+160,Moldova,MDA
+161,Yugoslavia,YUG
+162,Bahamas,BAH
+163,Guatemala,GUA
+164,Serbia,SRB
+165,British Virgin Islands,IVB
+166,Mozambique,MOZ
+167,Central African Republic,CAF
+168,Madagascar,MAD
+169,Malaya,MAL
+170,Bosnia and Herzegovina,BIH
+171,Guam,GUM
+172,Cayman Islands,CAY
+173,Slovakia,SVK
+174,Barbados,BAR
+175,Guinea Bissau,GBS
+176,Timor Leste,TLS
+177,Congo (Kinshasa),COD
+178,Gabon,GAB
+179,San Marino,SMR
+180,Laos,LAO
+181,Botswana,BOT
+182,Refugee Olympic Athletes,ROT
+183,GyoshuII,CAM
+184,North Korea,PRK
+185,Solomon Islands,SOL
+186,Senegal,SEN
+187,Cape Verde,CPV
+188,Crete,CRT
+189,Equatorial Guinea,GEQ
+190,Bolivia,BOL
+191,Saar,SAA
+192,Andorra,AND
+193,Antigua and Barbuda,ANT
+194,Zimbabwe,ZIM
+195,Grenada,GRN
+196,Hong Kong,HKG
+197,Saint Lucia,LCA
+198,Federated States of Micronesia,FSM
+199,Myanmar,MYA
+200,Malawi,MAW
+201,Zambia,ZAM
+202,Rhodesia,RHO
+203,Chinese Taipei-1,TPE
+204,Sao Tome and Principe,STP
+205,Macedonia,MKD
+206,Bohemia,BOH
+207,Tonga,TGA
+208,Liechtenstein,LIE
+209,Montenegro,MNE
+210,Gambia,GAM
+211,Cook Islands,COK
+212,Albania,ALB
+213,Circus,WIF
+214,Swaziland,SWZ
+215,Burkina Faso,BUR
+216,North Borneo,NBO
+217,Burundi,BDI
+218,Aruba,ARU
+219,Nauru,NRU
+220,South Vietnam,VNM
+221,Vietnam,VIE
+222,Bhutan,BHU
+223,Marshall Islands,MHL
+224,Kiribati,KIR
+225,Unknown,UNK
+226,Tuvalu,TUV
+227,Newfoundland,NFL
+228,Kosovo,KOS
+229,South Sudan,SSD
+230,Lesotho,LES
