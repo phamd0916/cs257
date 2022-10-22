@@ -1,12 +1,10 @@
-'''
-
+"""
 olympics-schema.sql
 Doug Pham
 October 13, 2022
 
-Creates out tables that we made new csvs for
-
-'''
+Creates our tables that we made new csv files for
+"""
 
 CREATE TABLE athletes (
     id INTEGER,
@@ -61,6 +59,7 @@ CREATE TABLE athletes_countries (
     id INTEGER,
     name TEXT,
     country TEXT,
+    noc TEXT,
     event TEXT,
     year INTEGER,
     medal TEXT
