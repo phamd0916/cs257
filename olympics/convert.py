@@ -46,6 +46,20 @@ with open('athlete_events.csv') as original_data_file,\
             events[event_name] = event_id
             writer.writerow([event_id, event_name])
 
+
+with open('athlete_events.csv') as original_data_file,\
+        open('event_results.csv', 'w') as event_results_file:
+    reader = csv.reader(original_data_file)
+    writer = csv.writer(event_results_file, lineterminator = '\n')
+    heading_row = next(reader)
+    for row in reader:
+        athlete_id = row[0]
+        event_name = row[13]
+        event_id = events[event_name]
+        year = row[9]
+        medal = row[14]
+        writer.writerow([athlete_id, event_id, year, medal])
+
 countries = {}
 with open('athlete_events.csv') as original_data_file,\
         open('countries.csv', 'w') as countries_file:
@@ -140,24 +154,19 @@ with open ('athlete_events.csv') as original_data_file,\
             weights[kgs] = kgs_id
             writer.writerow([kgs_id, kgs])
 
-athletes_countries = {}
+
 with open ('athlete_events.csv') as original_data_file,\
         open('athletes_countries.csv', 'w') as athletes_countries_file:
     reader = csv.reader(original_data_file)
-    writer = csv.writer(athletes_countries_file, lineterminator= '\n')
+    writer = csv.writer(athletes_countries_file, lineterminator = '\n')
     heading_row = next(reader)
     for row in reader:
-        name = row[1]
-        if name not in athletes_countries:
-            id = len(athletes_countries) + 1
-            country = row[6]
-            medal = row[14]
-            event = row[13]
-            year = row[9]
-            athletes_countries[name] = id
-            writer.writerow([id, name, country, event, year, medal])
+        athlete_id = row[0]
+        noc = row[7]
+        noc_id = countries[noc]
+        country = row[6]
+        writer.writerow([athlete_id, noc_id, country])
 
-nocs_medals = {}
 with open ('athlete_events.csv') as original_data_file,\
         open('nocs_medals.csv', 'w') as nocs_medals_file:
     reader = csv.reader(original_data_file)
@@ -165,8 +174,17 @@ with open ('athlete_events.csv') as original_data_file,\
     heading_row = next(reader)
     for row in reader:
         noc = row[7]
-        if noc not in nocs_medals:
-            id = len(nocs_medals) + 1
-            medals = row[14]
-            nocs_medals[medals] = id
-            writer.writerow([id, noc, medals])
+        medal = row[14]
+        noc_id = countries[noc]
+        medal_id = results[medal]
+        writer.writerow([noc_id, medal_id])
+
+with open ('athlete_events.csv') as original_data_file,\
+        open('athlete_year.csv', 'w') as athlete_year_file:
+    reader = csv.reader(original_data_file)
+    writer = csv.writer(athlete_year_file, lineterminator = '\n')
+    heading_row = next(reader)
+    for row in reader:
+        athlete_id = row[0]
+        year = row[9]
+        writer.writerow([athlete_id, year])
