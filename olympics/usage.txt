@@ -1,0 +1,44 @@
+olympics.py manual
+Doug Pham
+10/18/22
+
+NAME
+	olympics - olympics csv search program
+
+SYNOPSIS
+	python3 olympics.py --help
+	python3 olympics.py athlete --noc
+	python3 olympics.py noc_gold [--sort]
+	python3 olympics.py event --year --name
+
+DESCRIPTION
+	These commands will search through a csv file which contains information on
+	a dataset from past olympics. It allows the user to search for an athlete's
+	nation, how many golds a nation has won in sorted order, and the event an
+	athlete participated in, in a specified year. The result is a based on if the user 
+	wants to look for athletes, nations, or a specific event for an athlete
+
+	
+	The following options are available:
+	
+	--help			Displays the usage.txt file
+
+	athlete			Prints all the athletes in the database and their nation
+					they represent
+
+	noc_gold		Prints all the nations that have won a gold and how many 
+					they have won
+
+	medals			Prints the total counts medals each athlete has won
+
+	--noc			Prinst list of all athletes that are from the specified noc
+
+	--sort			Prints list of output in desending sorted order
+
+	--year 			Specify year to filter through olympics
+
+	--name			Specify name to get athlete's event, type name in single quotes
+					on command line. Ex: 'Kjetil Andr Aamodt'
+
+(END)
+		 
