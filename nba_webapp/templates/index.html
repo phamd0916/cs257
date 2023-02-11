@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>NBA App</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}" />
+    <script type="text/javascript" src="{{ url_for('static', filename='script.js') }}"></script>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}" />
+
+    <style>
+        #wrapID {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="wrapper" id="wrapID">
+        <header class="header">
+            <h1 class="headertest">NBA App</h1>
+
+            <!-- Issue with putting sorting criteria into select box -->
+            <!-- <p>Sort Players By... <select id="sort_by_selector">
+
+                <option value = "assists_s" >Assists</option>
+                <option value = "blocks_s" >Blocks</option>
+                <option value = "fouls_s" >Fouls</option>
+                <option value = "vios_s" >Violations</option>
+                <option value = "tosc_s" >Turnovers Caused</option>
+                <option value = "threes_s" >Three pt %</option>
+            </select></p> -->
+        </header>
+        <article class="main">
+
+            <style>
+                .winner {
+                    background-color: green;
+                }
+
+                .loser {
+                    background-color: red;
+                }
+
+                .tie {
+                    background-color: yellow;
+                }
+
+                .fillplease {
+                    background-color: rgb(255, 255, 255);
+                    width: 100%;
+
+                }
+            </style>
+            <table class="fillplease" id="results_table">
+            </table>
+            <!-- <p><table id="teams_table"></table></p> -->
+            <ul class="vertical-navbar" id="compare_list">
+                <p><table id="teams_table"></table></p>
+                <li><p align="center" id="welcome"> Welcome to the NBA Database WebApp!</p></li>
+                <li><img class="long" id="basketball_image" src="https://miro.medium.com/proxy/0*eEuRvDM2i5l7oBO7.jpg"></li>
+            </ul>
+        </article>
+        <aside class="aside aside-1">
+            <div id="sidebar" class="bigtext">
+                Sort Players By:
+                <ul class="vertical-navbar">
+                    <li><a id="players_by_assists">Assists</a></li>
+                    <li><a id="players_by_blocks">Blocks</a></li>
+                    <li><a id="players_by_fouls">Fouls</a></li>
+                    <li><a id="players_by_turnovers_caused">Turnovers Caused</a></li>
+                    <li><a id="players_by_violations">Violations</a></li>
+                    <li><a id="players_by_fts">Free Throws</a></li>
+                    <li><a id="players_by_threes">3s</a></li>
+
+                    <div id="sbc" class="bigtext">Search Players<br>
+                        <input type="search" id="search" name="q" placeholder="Search for players">
+                        <ul class="vertical-navbar2">
+                            <li><button id="player_search_bar_go">Search Players</button></li>
+                            <li class="notetext">Enter players' last names to search. e.g., "jokic, westbrook, lillard"
+                            </li>
+                            <li><button id="instant_compare">Instant Compare</button></li>
+                            <li class="notetext">Instantly be directed to compare view for searched players
+                            </li>
+
+                        </ul>
+
+                    </div>
+                    <!-- <p class="notetext">search players, teams, etc.</p> -->
+
+            </div>
+        </aside>
+        <aside class="aside aside-2">
+            </ul>
+            <div id="sbc" class="bigtext">Select Team Statistics</div>
+            <ul class="vertical-navbar3">
+                <li><p><select id="team_selector"></select></p></li>
+                <li><img id="small" src="https://seeklogo.com/images/N/nba-logo-20AFA6E832-seeklogo.com.png" alt="NBA Logo"></li>
+            </ul>
+
+
+
+            <!-- <div id="player_stats">
+                player stats tempate
+            </div> -->
+        </aside>
+        <footer class="footer">Footer</footer>
+    </div>
+
+</body>
+
+</html>

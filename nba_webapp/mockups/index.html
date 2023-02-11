@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>NBA App</title>
+    <link rel="stylesheet" href="mockup1.css" type="text/css" />
+
+    <style>
+        #wrapID {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="wrapper" id = "wrapID">
+        <header class="header">
+            <h1 class="headertest"><a href="mockup1.html">NBA App</a></h1>
+        </header>
+        <article class="main">
+            player comparison of "PLAYER 1" and "PLAYER 2" and .... "PLAYER n":
+            <style>
+                .winner {
+                    background-color: green;
+                }
+
+                .loser {
+                    background-color: red;
+                }
+
+                .tie {
+                    background-color: yellow;
+                }
+
+                .fillplease {
+                    background-color: blueviolet;
+                    width: 100%;
+                    font-family: cursive;
+                }
+            </style>
+            <table class="fillplease">
+
+                <tr>
+                    <td>&nbsp;</td>
+                    <td class="fontchange">Edwards</td>
+                    <td>Giddey</td>
+                    <td> <p class = "important"> Poeltl </p> </td>
+                    <td>Antetokounmpo</td>
+                </tr>
+                <tr>
+                    <td class="data">FT %</td>
+                    <td class="loser">60</td>
+                    <td class = "winner">80</td>
+                    <td>72</td>
+                    <td>68</td>
+                </tr>
+                <tr>
+                    <td>Age</td>
+                    <td>28</td>
+                    <td>31</td>
+                    <td>24</td>
+                    <td>25</td>
+                </tr>
+                <tr>
+                    <td>Team</td>
+                    <td >Minnesota</td>
+                    <td class="winner">OKC</td>
+                    <td>San Antonio</td>
+                    <td class="tie">Milwaukee</td>
+                </tr>
+                <tr>
+                    <td>3 %</td>
+                    <td>58</td>
+                    <td>27</td>
+                    <td>45</td>
+                    <td>33</td>
+                </tr>
+            </table>
+        </article>
+        <aside class="aside aside-1">
+            <div id="sidebar" class="bigtext">
+                Sort Players By:
+                <ul class="vertical-navbar">
+                    <li><a href="mockup5.html">Assists</a></li>
+                    <li><a href="mockup5.html">Blocks</a></li>
+                    <li><a href="mockup5.html">Flouls</a></li>
+                    <li><a href="mockup5.html">Free Throws</a></li>
+                </ul>
+                Sort Teams By:
+                <ul class="vertical-navbar">
+                    <li><a href="mockup6.html">Wins/Losses</a></li>
+                    <li><a href="mockup6.html">Total Points</a></li>
+                    <li><a href="mockup6.html">etc</a></li>
+                </ul>
+            </div>
+        </aside>
+        <aside class="aside aside-2">
+            <div id="sbc" class="bigtext">Search: (add search box)<br>
+                <input type="search" id="site-search" name="q">
+
+                <button><a href="player_list.html">Search Players</a></button>
+                <p><button id="authors_button">Get authors</button></p>
+
+                <p><table id="results_table"></table></p>
+            
+                <button><a href="mockup6.html">Search Teams</a></button>
+                <p class="notetext">search players, teams, etc.</p>
+            </div>
+            <div id="player_stats">
+                player stats tempate
+            </div>
+        </aside>
+        <footer class="footer">Footer</footer>
+    </div>
+
+</body>
+
+</html>

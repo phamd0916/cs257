@@ -1,0 +1,292 @@
+/*
+    books.css
+    Jeff Ondich, 27 April 2016
+    Updated 6 May 2018
+
+    Styles for the "books and authors" webapp sample
+    for CS 257, Spring 2016. 
+*/
+
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border-bottom: 1px solid #ddd;
+  border-left: 2px solid #ddd;
+  padding: 15px;
+}
+
+a {
+  color: #0B86B5;
+  text-decoration: underline;
+}
+
+a:hover {
+  background-color: #D8D8D8;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.whoa {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: red;
+  font-size: 250%;
+}
+
+/*
+    Dough Pham and Tom Pree
+    Modified from Jeff's Repo
+    mockup1.css
+    2 November 2022
+
+*/
+
+/* Vertical navigation */
+ul.vertical-navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 1%;
+  width: 98%;
+  background-color: #f1f1f1;
+}
+
+ul.vertical-navbar2 {
+  list-style-type: none;
+  margin: 0;
+  padding: 1%;
+  width: 98%;
+  background-color: green;
+}
+
+ul.vertical-navbar3 {
+  list-style-type: none;
+  margin: 0;
+  padding: 1%;
+  width: 98%;
+  background-color: #f1f1f1;
+}
+
+ul.vertical-navbar li a {
+  display: block;
+  color: black;
+  padding: 1%;
+  text-decoration: none;
+  text-align: left;
+}
+
+ul.vertical-navbar2 li a {
+  display: block;
+  color: black;
+  padding: 1%;
+  text-decoration: none;
+  text-align: left;
+}
+
+ul.vertical-navbar3 li a {
+  display: block;
+  color: black;
+  padding: 1%;
+  text-decoration: none;
+  text-align: left;
+}
+
+h1.capitalize {
+  text-transform: capitalize;
+}
+
+
+ul.vertical-navbar li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+
+p.compare_p {
+  background-color: #f1f1f1;
+  display: block;
+  color: black;
+  padding: 1%;
+  text-decoration: none;
+  text-align: left;
+}
+
+p.compare_p a:hover {
+  background-color: #555;
+  color: white;
+}
+
+#compare_bar {
+  text-align: right;
+}
+
+
+table tr:hover {
+  background-color: #555;
+  color: white;
+}
+
+tr.odd {
+  background-color: #555;
+}
+
+h1.headertest {
+  text-align: center;
+}
+
+.important {
+  color: red;
+  font-size: 120%;
+}
+
+.bigcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  height: 100%;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.bigtext {
+  font-size: 24pt;
+  color: white;
+  text-align: center;
+}
+
+.notetext {
+  font-size: 12pt;
+  color: black;
+  text-align: left;
+}
+
+#sidebar {
+
+  padding: 1%;
+  background-color: green;
+}
+
+#game_img_container {
+  padding: 2%;
+  background-color: #0000aa;
+}
+
+#desc {
+  width: 40%;
+  height: 50%;
+  background-color: #000000;
+}
+
+#game_img {
+  width: 95%;
+  height: 95%;
+}
+
+#sbc {
+  background-color: green;
+}
+
+#player_stats {
+  background-color: greenyellow;
+}
+
+/* taken mostly from flexbox tutorial https://css-tricks.com/snippets/css/a-guide-to-flexbox */
+
+.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center;
+}
+
+.wrapper>* {
+  padding: 10px;
+  flex: 1 100%;
+}
+
+.header {
+  background: tomato;
+}
+
+.footer {
+  background: lightgreen;
+}
+
+.main {
+  text-align: left;
+  background: deepskyblue;
+}
+
+.aside-1 {
+  background: tomato;
+}
+
+.aside-2 {
+  background: tomato;
+}
+
+@media all and (min-width: 600px) {
+  .aside {
+    flex: 1 0 0;
+  }
+}
+
+@media all and (min-width: 800px) {
+  .main {
+    flex: 3 0px;
+  }
+
+  .aside-1 {
+    order: 1;
+  }
+
+  .main {
+    order: 2;
+  }
+
+  .aside-2 {
+    order: 3;
+  }
+
+  .footer {
+    order: 4;
+  }
+}
+
+body {
+  padding: 2em;
+}
+
+
+table.tableidtest {
+  background-color: white;
+  color: green;
+}
+
+
+#sidebar {
+
+  padding: 1%;
+  background-color: green;
+}
+
+#team_selector {
+  border: 1px solid black;
+}
+
+#small {
+  width: 200px;
+  height: 300px;
+}
+
+.long {
+  width: 800px;
+  height: 400px;
+}img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}

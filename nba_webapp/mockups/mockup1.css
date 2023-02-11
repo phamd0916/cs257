@@ -1,0 +1,149 @@
+/*
+    Dough Pham and Tom Pree
+    Modified from Jeff's Repo
+    mockup1.css
+    2 November 2022
+
+*/
+
+/* Vertical navigation */
+ul.vertical-navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: .2%;
+    width: 90%;
+    background-color: #f1f1f1;
+}
+
+ul.vertical-navbar li a {
+    display: block;
+    color: black;
+    padding: .1%;
+    text-decoration: none;
+    text-align: left;
+}
+
+ul.vertical-navbar li a:hover {
+    background-color: #555;
+    color: white;
+}
+h1.headertest {
+    text-align: center;
+}
+
+.important {
+    color: red;
+    font-size: 120%;
+}
+
+.bigcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    height: 100%;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.bigtext {
+    font-size: 24pt;
+    color: white;
+    text-align: center;
+}
+
+.notetext {
+    font-size: 12pt;
+    color: black;
+    text-align: left;
+}
+
+#sidebar {
+
+    padding: 1%;
+    background-color: green;
+}
+
+#game_img_container {
+    padding:2%;
+    background-color: #0000aa;
+}
+#desc {
+    width: 40%;
+    height: 50%;
+    background-color: #9300aa;
+}
+#game_img {
+    width: 95%;
+    height: 95%;
+}
+
+#sbc {
+    background-color: #aa0000;
+}
+#player_stats {
+    background-color: greenyellow;
+}
+/* taken mostly from flexbox tutorial https://css-tricks.com/snippets/css/a-guide-to-flexbox */
+
+.wrapper {
+    display: flex;  
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center; 
+  }
+  
+  .wrapper > * {
+    padding: 10px;
+    flex: 1 100%;
+  }
+  
+  .header {
+    background: tomato;
+  }
+  
+  .footer {
+    background: lightgreen;
+  }
+  
+  .main {
+    text-align: left;
+    background: deepskyblue;
+  }
+  
+  .aside-1 {
+    background: gold;
+  }
+  
+  .aside-2 {
+    background: hotpink;
+  }
+  
+  @media all and (min-width: 600px) {
+    .aside { flex: 1 0 0; }
+  }
+  
+  @media all and (min-width: 800px) {
+    .main    { flex: 3 0px; }
+    .aside-1 { order: 1; } 
+    .main    { order: 2; }
+    .aside-2 { order: 3; }
+    .footer  { order: 4; }
+  }
+  
+  body {
+    padding: 2em; 
+  }
+
+ 
+table.tableidtest {
+  background-color: white;
+  color: green;
+}
+
+
+#sidebar {
+
+  padding: 1%;
+  background-color: green;
+}

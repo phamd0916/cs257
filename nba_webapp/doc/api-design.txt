@@ -1,0 +1,21 @@
+api-design.txt
+Doug Pham and Tom Pree
+
+Documentation for our endpoints of our api
+
+REQUEST: /player/id/{search_text}
+RESPONSE: a single dictionary with the stats of the
+          specified player
+
+REQUEST: /players?field={search_text}?sort_by={stat}
+RESPONSE: a JSON list of dictionaries with the players 
+          specified field sorted by a stat line
+
+REQUEST: /team/id/{search_text}
+RESPONSE: a single dictionary with the season statistics
+          of the specified team
+
+REQUEST: /teams?ids={teams_id}/teams?{search}
+RESPONSE: a JSON list of dictionaries with the first team
+          statistics and then the specified second team
+
